@@ -14,6 +14,6 @@ export default defineConfig({
       hostname: 'https://homeappliancesfix.bh', 
     }),
   ],
-  base : '/Home-Appliances-react-website/',
+  base: '/Home-Appliances-react-website',
 });
 

@@ -1,5 +1,6 @@
 {
   "name": "home-appliances-fix-with-react",
+  "homepage": "https://mahad-abdullah.github.io/Home-Appliances-react-website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
