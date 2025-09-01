@@ -11,8 +11,9 @@ export default defineConfig({
     tailwindcss(),
     Pages(),
     Sitemap({
-      hostname: 'https://homeappliancesfix.bh', // Yahan apni website ka real URL daalna
+      hostname: 'https://homeappliancesfix.bh', 
     }),
   ],
+  base : '/Home-Appliances-react-website/',
 });
 
